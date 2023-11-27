@@ -1,0 +1,164 @@
+@charset "UTF-8";
+:root{
+    --cor0: #54595F;
+    --cor1: #F3D30C;
+    --cor2: #EAEAEA;
+    --cor3: #7A7A7A;
+}
+
+*{
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.info{
+    background-color: var(--cor0);
+}
+.ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    padding: 15px 10px;
+    justify-content:space-around;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ul i {
+    color: var(--cor1);
+    font-size: 20px;
+    margin-right: 10px;
+}
+.ul .social i{
+    font-size: 35px;
+    color: white;   
+}
+.banner{
+    background-image: url(img/banner-4-1024x341\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    padding: 120px;
+}
+h1{
+    color: var(--cor0);
+    font-size: 72px;
+    margin-left: 350px;
+    font-family: 'Contrail One', sans-serif;
+}
+.banner p{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    text-shadow: 1px 1px 10px var(--cor0);
+    margin-left: 350px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+
+.btn{
+    text-decoration: none;
+    color: #54595F;
+    background-color: white;
+    padding: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 350px;
+    box-shadow: 1px 1px 10px #b3b3b3;    
+}
+.icon-title{
+    display: flex;
+}
+.cards-1{
+    display: flex;
+    margin-top: -40px;
+}
+.card{
+    border: 1px solid rgb(188, 188, 188);
+    width: 500px;
+}
+.card i{
+    font-size: 50px;
+    margin: 10px;
+    color: var(--cor0);
+}
+.card h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: var(--cor0);
+    margin-top: 15px;
+}
+.card p{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0 15px 20px 70px;
+}
+.color{
+    background-color: #EAEAEA;
+}
+.white{
+    background-color: white;
+}
+.bkgd{
+    background-image: url(img/bannerfundo-1-300x100.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 120px;
+}
+.about h3{
+    color: var(--cor0);
+    font-family: sans-serif;
+    font-size: 55px;
+    text-align: center;
+}
+.about p{
+    color: var(--cor0);
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+.cards-2{
+    display: flex;
+    text-align: center;
+    margin-top: 25px;
+}
+.card_2{
+    box-shadow: 1px 1px 5px rgb(189, 189, 189);
+    background-color: white;
+    margin: 5px;
+    padding: 25px;
+}
+.card_2 i{
+    font-size: 52px;
+    color: var(--cor1);
+}
+.card_2 h4{
+    color: var(--cor0);
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.card_2 p{
+    color: var(--cor0);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.buton{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn_2{
+    text-decoration: none;
+    color: #54595F;
+    background-color: var(--cor1);
+    padding: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px #b3b3b3;    
+}
+
+
