@@ -83,17 +83,45 @@
             <a class="btn_2" href="https://api.whatsapp.com/send?phone=5583999959552&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">ENTRAR EM CONTATO</a>
         </div>
     </section>
-    <section>
-        <div>
-            <h4 class="title_form">Orçamento express</h4>
-            <p class="text_form">Fale sobre o serviço que você precisa que te mando um orçamento sem compromisso</p>
-        </div>
-        <div>
-            <form action="">
-
-            </form>
+    <section style="background-color: #54595f;">
+        <div class=" section-3 container">
+            <div class="title-msg">
+                <h4 class="title_form">Orçamento express</h4>
+                <p class="text_form">Fale sobre o serviço que você precisa que te mando <br> um orçamento sem compromisso</p>
+            </div>
+            <div class="form">
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Nome">
+                    <input type="tel" name="phone" id="phone" placeholder="Telefone">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <div>
+                        <label for="services">Selecione o tipo de Serviço</label><br>
+                        <select name="services" id="services">
+                            <option selected disabled value="">Selecione</option>
+                            <option value="">Elétrica Residencial</option>
+                            <option value="">Elétrica Predial</option>
+                            <option value="">Elétrica Comercial</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="description">Descrição dos serviços</label><br>
+                        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
         </div>
     </section>
-    
+    <footer>
+        <div class="info">
+            <ul class="ul container">
+                <li><i class="fa-solid fa-location-dot"></i>R. Newton Paiva Fernandes-Pedregal, Campona Grande-PB</li>
+                <li><i class="fa-solid fa-phone"></i>(83) 99995-9552</li>
+                <li><i class="fa-solid fa-clock"></i>Atendimento : De Seg à Sab: 08:00 às 18:00</li>
+                <a href="https://www.instagram.com/j.w_eletricista/" class="social"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5583999959552&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento." class="social"><i class="fa-brands fa-whatsapp"></i></a>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
